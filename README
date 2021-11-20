@@ -1,0 +1,16 @@
+Script para mapear e iniciar o xboxdrv com os mapeamentos para o meu
+arcade caseiro (feito com um controle generico):
+
+Bus 003 Device 002: ID 0079:0006 DragonRise Inc. PC TWIN SHOCK Gamepad
+
+Mapeaia  8 botoes e o stick para o dpad de um controle de xbox 360 simulado
+Ficaram de fora o "start", "back" e os analogicos
+
+O objetivo aual e permitir que eu apanhe no Street Fighter V via Steam/Proton
+(eventualmente posso querer apanhar em outros jogos tambem :) )
+
+
+Obs: O xboxdrv leva uns 60 segundos para comecao efetivamente a mapear.
+Isso parece estar relacionado a uma chamada de enumerador, para a qual 
+existe um patch.
+Mas isso nao e critico para mim.
